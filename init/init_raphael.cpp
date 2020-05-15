@@ -68,5 +68,6 @@ void vendor_load_properties() {
     } else {
         LOG(ERROR) << __func__ << ": unexcepted region!";
     }
-    property_override("ro.build.fingerprint", "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "Xiaomi/raphael/raphael:10/QKQ1.190825.002/V11.0.1.0.QFKMIXM:user/release-keys");
+    property_override("ro.build.fingerprint", "Xiaomi/raphael/raphael:10/QKQ1.190825.002/V11.0.1.0.QFKMIXM:user/release-keys");
 }
