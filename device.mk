@@ -73,6 +73,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lineage.biometrics.fingerprint.inscreen@1.0-service.raphael
 
+# Floko Specific
+TARGET_HAS_FOD := true
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
